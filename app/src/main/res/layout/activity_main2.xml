@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/salud"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="274dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/princilogo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="239dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="84dp"
+        android:text="Bienvenidos a"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#612828"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="96dp"
+        android:text="Datos del evento"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="355dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="40dp"
+        android:text="Fecha: 15 al 17 de noviembre de 2023
+
+        Organizador: Asociación Internacional de Nutrición y Salud
+        Lugar: Centro de Convenciones Salud Vital, Ciudad Nutriónica
+        Participación de tu Empresa: Batidos de Banana Saludable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="317dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="454dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="88dp"
+        android:text="Hace una década, en la exuberante región de Bananaville, nació tu empresa con una visión clara: llevar la nutrición y la deliciosa frescura de las bananas a todo el mundo. Inspirados por la riqueza nutricional de esta fruta, empezaron a producir batidos de banana innovadores, centrados en la salud y el bienestar. A lo largo de los años, tu empresa ha crecido y se ha convertido en un referente en el sector de alimentos saludables."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="276dp"
+        android:text="SOBRE NOSOTROS:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#612828"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="564dp"
+        android:text="Patrocinadores"
+        android:textCursorDrawable="@drawable/princilogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
